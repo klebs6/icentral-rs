@@ -1,0 +1,26 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-color-map]
+path = "../icentral-color-map"
+[dependencies.icentral-distances]
+path = "../icentral-distances"
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+[dependencies.icentral-edges]
+path = "../icentral-edges"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-neighbors]
+path = "../icentral-neighbors"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-predecessor-map]
+path = "../icentral-predecessor-map"
+[dependencies.named-item]
+path = "../named-item"
+[dependencies.renew-traits]
+path = "../renew-traits"
+[package]
+edition = "2021"
+name = "icentral-bcc"
+version = "0.1.0"

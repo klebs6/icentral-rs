@@ -1,0 +1,20 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-brandes]
+path = "../icentral-brandes"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-graph]
+path = "../icentral-graph"
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+[dependencies.icentral-timer]
+path = "../icentral-timer"
+[package]
+edition = "2021"
+name = "icentral-compare-runtime"
+version = "0.1.0"

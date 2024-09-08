@@ -1,0 +1,50 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-cycle]
+path = "../icentral-cycle"
+[dependencies.icentral-distances]
+path = "../icentral-distances"
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+[dependencies.icentral-edges]
+path = "../icentral-edges"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-graph]
+path = "../icentral-graph"
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+[dependencies.icentral-mindexed-map]
+path = "../icentral-mindexed-map"
+[dependencies.icentral-muc]
+path = "../icentral-muc"
+[dependencies.icentral-neighbors]
+path = "../icentral-neighbors"
+[dependencies.icentral-node-queue]
+path = "../icentral-node-queue"
+[dependencies.icentral-node-stack]
+path = "../icentral-node-stack"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-pair-dependencies]
+path = "../icentral-pair-dependencies"
+[dependencies.icentral-parents-map]
+path = "../icentral-parents-map"
+[dependencies.icentral-path-counts]
+path = "../icentral-path-counts"
+[dependencies.icentral-qube]
+path = "../icentral-qube"
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+[dependencies.icentral-sigmas]
+path = "../icentral-sigmas"
+[dependencies.icentral-visit-markers]
+path = "../icentral-visit-markers"
+[dependencies.named-item]
+path = "../named-item"
+[dependencies.renew-traits]
+path = "../renew-traits"
+[package]
+edition = "2021"
+name = "icentral-graph-hash"
+version = "0.1.0"

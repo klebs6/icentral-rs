@@ -1,0 +1,34 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-alg]
+path = "../icentral-alg"
+[dependencies.icentral-bcc]
+path = "../icentral-bcc"
+[dependencies.icentral-component]
+path = "../icentral-component"
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+[dependencies.icentral-edges]
+path = "../icentral-edges"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-graph]
+path = "../icentral-graph"
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+[dependencies.icentral-neighbors]
+path = "../icentral-neighbors"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-operation]
+path = "../icentral-operation"
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+[dependencies.named-item]
+path = "../named-item"
+[dependencies.renew-traits]
+path = "../renew-traits"
+[package]
+edition = "2021"
+name = "icentral-operation-update"
+version = "0.1.0"

@@ -1,0 +1,20 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-color-map]
+path = "../icentral-color-map"
+[dependencies.icentral-distances]
+path = "../icentral-distances"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-neighbors]
+path = "../icentral-neighbors"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-predecessor-map]
+path = "../icentral-predecessor-map"
+[dependencies.named-item]
+path = "../named-item"
+[package]
+edition = "2021"
+name = "icentral-articulation-point"
+version = "0.1.0"

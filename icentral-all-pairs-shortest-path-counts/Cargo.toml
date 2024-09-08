@@ -1,0 +1,16 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+[dependencies.icentral-mindexed-map]
+path = "../icentral-mindexed-map"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-path-counts]
+path = "../icentral-path-counts"
+[dependencies.named-item]
+path = "../named-item"
+[package]
+edition = "2021"
+name = "icentral-all-pairs-shortest-path-counts"
+version = "0.1.0"

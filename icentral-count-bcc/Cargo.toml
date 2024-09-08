@@ -1,0 +1,14 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-bcc]
+path = "../icentral-bcc"
+[dependencies.icentral-edges]
+path = "../icentral-edges"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+[package]
+edition = "2021"
+name = "icentral-count-bcc"
+version = "0.1.0"

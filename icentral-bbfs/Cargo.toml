@@ -1,0 +1,30 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-component]
+path = "../icentral-component"
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-mindexed-map]
+path = "../icentral-mindexed-map"
+[dependencies.icentral-node-queue]
+path = "../icentral-node-queue"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-parents-map]
+path = "../icentral-parents-map"
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+[dependencies.icentral-sigmas]
+path = "../icentral-sigmas"
+[dependencies.icentral-workspace]
+path = "../icentral-workspace"
+[dependencies.named-item]
+path = "../named-item"
+[dependencies.renew-traits]
+path = "../renew-traits"
+[package]
+edition = "2021"
+name = "icentral-bbfs"
+version = "0.1.0"

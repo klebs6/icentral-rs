@@ -1,0 +1,38 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-bc-mem]
+path = "../icentral-bc-mem"
+[dependencies.icentral-component]
+path = "../icentral-component"
+[dependencies.icentral-deltas]
+path = "../icentral-deltas"
+[dependencies.icentral-distances]
+path = "../icentral-distances"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+[dependencies.icentral-mindexed-map]
+path = "../icentral-mindexed-map"
+[dependencies.icentral-node-queue]
+path = "../icentral-node-queue"
+[dependencies.icentral-node-stack]
+path = "../icentral-node-stack"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-parents-map]
+path = "../icentral-parents-map"
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+[dependencies.icentral-sigmas]
+path = "../icentral-sigmas"
+[dependencies.icentral-visit-markers]
+path = "../icentral-visit-markers"
+[dependencies.named-item]
+path = "../named-item"
+[dependencies.renew-traits]
+path = "../renew-traits"
+[package]
+edition = "2021"
+name = "icentral-workspace"
+version = "0.1.0"

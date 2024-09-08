@@ -1,0 +1,20 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-all-pairs-distance]
+path = "../icentral-all-pairs-distance"
+[dependencies.icentral-all-pairs-shortest-path-counts]
+path = "../icentral-all-pairs-shortest-path-counts"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-graph]
+path = "../icentral-graph"
+[dependencies.icentral-graph-hash]
+path = "../icentral-graph-hash"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+[package]
+edition = "2021"
+name = "icentral-naive"
+version = "0.1.0"

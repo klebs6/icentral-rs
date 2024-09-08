@@ -1,0 +1,24 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-brandes]
+path = "../icentral-brandes"
+[dependencies.icentral-component]
+path = "../icentral-component"
+[dependencies.icentral-edges]
+path = "../icentral-edges"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+[dependencies.icentral-neighbors]
+path = "../icentral-neighbors"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+[dependencies.icentral-workspace]
+path = "../icentral-workspace"
+[package]
+edition = "2021"
+name = "icentral-fast-brandes"
+version = "0.1.0"

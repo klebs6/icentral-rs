@@ -1,0 +1,13 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.serde]
+features = [ "derive" ]
+version = "*"
+[dependencies.serde_derive]
+version = "*"
+[dependencies.serde_json]
+version = "*"
+[package]
+edition = "2021"
+name = "icentral-json"
+version = "0.1.0"

@@ -1,0 +1,14 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+[dependencies.icentral-mindexed-map]
+path = "../icentral-mindexed-map"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[package]
+edition = "2021"
+name = "icentral-scores"
+version = "0.1.0"

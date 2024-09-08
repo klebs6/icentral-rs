@@ -1,0 +1,18 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-component]
+path = "../icentral-component"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+[dependencies.icentral-sigmas]
+path = "../icentral-sigmas"
+[dependencies.icentral-workspace]
+path = "../icentral-workspace"
+[package]
+edition = "2021"
+name = "icentral-rbfs"
+version = "0.1.0"

@@ -1,0 +1,12 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-mindexed-map]
+path = "../icentral-mindexed-map"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.named-item]
+path = "../named-item"
+[package]
+edition = "2021"
+name = "icentral-articulation-point-map"
+version = "0.1.0"

@@ -1,0 +1,50 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-bcc]
+path = "../icentral-bcc"
+[dependencies.icentral-brandes]
+path = "../icentral-brandes"
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+[dependencies.icentral-edges]
+path = "../icentral-edges"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-gen-rand-edges]
+path = "../icentral-gen-rand-edges"
+[dependencies.icentral-graph]
+path = "../icentral-graph"
+[dependencies.icentral-graph-hash]
+path = "../icentral-graph-hash"
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+[dependencies.icentral-muc]
+path = "../icentral-muc"
+[dependencies.icentral-neighbors]
+path = "../icentral-neighbors"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-pair-dependencies]
+path = "../icentral-pair-dependencies"
+[dependencies.icentral-parents-map]
+path = "../icentral-parents-map"
+[dependencies.icentral-path-counts]
+path = "../icentral-path-counts"
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+[dependencies.icentral-sigmas]
+path = "../icentral-sigmas"
+[dependencies.icentral-speedup-calculation]
+path = "../icentral-speedup-calculation"
+[dependencies.icentral-stats]
+path = "../icentral-stats"
+[dependencies.icentral-timer]
+path = "../icentral-timer"
+[dependencies.named-item]
+path = "../named-item"
+[dependencies.renew-traits]
+path = "../renew-traits"
+[package]
+edition = "2021"
+name = "icentral-test-insertion"
+version = "0.1.0"

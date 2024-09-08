@@ -1,0 +1,16 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-distances]
+path = "../icentral-distances"
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+[dependencies.icentral-mindexed-map]
+path = "../icentral-mindexed-map"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.named-item]
+path = "../named-item"
+[package]
+edition = "2021"
+name = "icentral-all-pairs-distance"
+version = "0.1.0"

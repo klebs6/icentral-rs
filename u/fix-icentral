@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+mv icentral/src/test_qube_insertion.rs               icentral-test-qube/src/ 
+mv icentral/src/test_qube_insertion_hash.rs          icentral-test-qube/src/ 
+mv icentral/src/test_qube_p.rs                       icentral-test-qube/src/ 

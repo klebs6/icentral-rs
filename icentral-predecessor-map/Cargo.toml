@@ -1,0 +1,10 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-mindexed-map]
+path = "../icentral-mindexed-map"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[package]
+edition = "2021"
+name = "icentral-predecessor-map"
+version = "0.1.0"

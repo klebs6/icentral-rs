@@ -1,0 +1,6 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[package]
+edition = "2021"
+name = "icentral-operation"
+version = "0.1.0"

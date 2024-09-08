@@ -1,0 +1,42 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-bbfs]
+path = "../icentral-bbfs"
+[dependencies.icentral-component]
+path = "../icentral-component"
+[dependencies.icentral-distances]
+path = "../icentral-distances"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+[dependencies.icentral-neighbors]
+path = "../icentral-neighbors"
+[dependencies.icentral-node-queue]
+path = "../icentral-node-queue"
+[dependencies.icentral-node-stack]
+path = "../icentral-node-stack"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-pair-dependencies]
+path = "../icentral-pair-dependencies"
+[dependencies.icentral-parents-map]
+path = "../icentral-parents-map"
+[dependencies.icentral-path-counts]
+path = "../icentral-path-counts"
+[dependencies.icentral-rbfs]
+path = "../icentral-rbfs"
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+[dependencies.icentral-timer]
+path = "../icentral-timer"
+[dependencies.icentral-workspace]
+path = "../icentral-workspace"
+[dependencies.named-item]
+path = "../named-item"
+[dependencies.renew-traits]
+path = "../renew-traits"
+[package]
+edition = "2021"
+name = "icentral-brandes"
+version = "0.1.0"

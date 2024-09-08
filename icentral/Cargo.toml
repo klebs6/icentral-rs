@@ -1,0 +1,160 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-alg]
+path = "../icentral-alg"
+[dependencies.icentral-all-pairs-distance]
+path = "../icentral-all-pairs-distance"
+[dependencies.icentral-all-pairs-shortest-path-counts]
+path = "../icentral-all-pairs-shortest-path-counts"
+[dependencies.icentral-articulation-point]
+path = "../icentral-articulation-point"
+[dependencies.icentral-articulation-point-map]
+path = "../icentral-articulation-point-map"
+[dependencies.icentral-bbfs]
+path = "../icentral-bbfs"
+[dependencies.icentral-bc-mem]
+path = "../icentral-bc-mem"
+[dependencies.icentral-bcc]
+path = "../icentral-bcc"
+[dependencies.icentral-brandes]
+path = "../icentral-brandes"
+[dependencies.icentral-bridge-edges]
+path = "../icentral-bridge-edges"
+[dependencies.icentral-calculate-bc-mem]
+path = "../icentral-calculate-bc-mem"
+[dependencies.icentral-color-map]
+path = "../icentral-color-map"
+[dependencies.icentral-compare-runtime]
+path = "../icentral-compare-runtime"
+[dependencies.icentral-component]
+path = "../icentral-component"
+[dependencies.icentral-conn-vertex-map]
+path = "../icentral-conn-vertex-map"
+[dependencies.icentral-count-bcc]
+path = "../icentral-count-bcc"
+[dependencies.icentral-cycle]
+path = "../icentral-cycle"
+[dependencies.icentral-delta]
+path = "../icentral-delta"
+[dependencies.icentral-deltas]
+path = "../icentral-deltas"
+[dependencies.icentral-distances]
+path = "../icentral-distances"
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+[dependencies.icentral-edges]
+path = "../icentral-edges"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-fast-brandes]
+path = "../icentral-fast-brandes"
+[dependencies.icentral-gen-rand-edges]
+path = "../icentral-gen-rand-edges"
+[dependencies.icentral-graph]
+path = "../icentral-graph"
+[dependencies.icentral-graph-hash]
+path = "../icentral-graph-hash"
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+[dependencies.icentral-json]
+path = "../icentral-json"
+[dependencies.icentral-label-map]
+path = "../icentral-label-map"
+[dependencies.icentral-largest-bcc]
+path = "../icentral-largest-bcc"
+[dependencies.icentral-match]
+path = "../icentral-match"
+[dependencies.icentral-mindexed-map]
+path = "../icentral-mindexed-map"
+[dependencies.icentral-mock]
+path = "../icentral-mock"
+[dependencies.icentral-muc]
+path = "../icentral-muc"
+[dependencies.icentral-muc-speedup-stats]
+path = "../icentral-muc-speedup-stats"
+[dependencies.icentral-mucid]
+path = "../icentral-mucid"
+[dependencies.icentral-mucid-map]
+path = "../icentral-mucid-map"
+[dependencies.icentral-naive]
+path = "../icentral-naive"
+[dependencies.icentral-neighbors]
+path = "../icentral-neighbors"
+[dependencies.icentral-node-queue]
+path = "../icentral-node-queue"
+[dependencies.icentral-node-stack]
+path = "../icentral-node-stack"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-operation]
+path = "../icentral-operation"
+[dependencies.icentral-operation-update]
+path = "../icentral-operation-update"
+[dependencies.icentral-pair-dependencies]
+path = "../icentral-pair-dependencies"
+[dependencies.icentral-parallel-brandes]
+path = "../icentral-parallel-brandes"
+[dependencies.icentral-parents-map]
+path = "../icentral-parents-map"
+[dependencies.icentral-partial-bbfs]
+path = "../icentral-partial-bbfs"
+[dependencies.icentral-path-counts]
+path = "../icentral-path-counts"
+[dependencies.icentral-predecessor-map]
+path = "../icentral-predecessor-map"
+[dependencies.icentral-qube]
+path = "../icentral-qube"
+[dependencies.icentral-rbfs]
+path = "../icentral-rbfs"
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+[dependencies.icentral-scratch]
+path = "../icentral-scratch"
+[dependencies.icentral-sigmas]
+path = "../icentral-sigmas"
+[dependencies.icentral-speedup-calculation]
+path = "../icentral-speedup-calculation"
+[dependencies.icentral-stats]
+path = "../icentral-stats"
+[dependencies.icentral-subgraph]
+path = "../icentral-subgraph"
+[dependencies.icentral-subgraph-map]
+path = "../icentral-subgraph-map"
+[dependencies.icentral-test-basic-icentral]
+path = "../icentral-test-basic-icentral"
+[dependencies.icentral-test-brandes]
+path = "../icentral-test-brandes"
+[dependencies.icentral-test-fast-brandes]
+path = "../icentral-test-fast-brandes"
+[dependencies.icentral-test-fuad]
+path = "../icentral-test-fuad"
+[dependencies.icentral-test-incremental-brandes]
+path = "../icentral-test-incremental-brandes"
+[dependencies.icentral-test-incremental-qube]
+path = "../icentral-test-incremental-qube"
+[dependencies.icentral-test-insertion]
+path = "../icentral-test-insertion"
+[dependencies.icentral-test-largest-bcc-speedup]
+path = "../icentral-test-largest-bcc-speedup"
+[dependencies.icentral-test-qube]
+path = "../icentral-test-qube"
+[dependencies.icentral-test-rustworkx]
+path = "../icentral-test-rustworkx"
+[dependencies.icentral-test-speedup]
+path = "../icentral-test-speedup"
+[dependencies.icentral-test-update]
+path = "../icentral-test-update"
+[dependencies.icentral-timer]
+path = "../icentral-timer"
+[dependencies.icentral-timing-update]
+path = "../icentral-timing-update"
+[dependencies.icentral-visit-markers]
+path = "../icentral-visit-markers"
+[dependencies.icentral-workspace]
+path = "../icentral-workspace"
+[dependencies.icentral-workspace-map]
+path = "../icentral-workspace-map"
+[package]
+edition = "2021"
+name = "icentral"
+version = "0.1.0"

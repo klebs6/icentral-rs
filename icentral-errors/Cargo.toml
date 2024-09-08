@@ -1,0 +1,8 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+[package]
+edition = "2021"
+name = "icentral-errors"
+version = "0.1.0"

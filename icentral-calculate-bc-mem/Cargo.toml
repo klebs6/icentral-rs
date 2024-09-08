@@ -1,0 +1,32 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-bc-mem]
+path = "../icentral-bc-mem"
+[dependencies.icentral-component]
+path = "../icentral-component"
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-graph]
+path = "../icentral-graph"
+[dependencies.icentral-node-queue]
+path = "../icentral-node-queue"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-parents-map]
+path = "../icentral-parents-map"
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+[dependencies.icentral-sigmas]
+path = "../icentral-sigmas"
+[dependencies.icentral-workspace]
+path = "../icentral-workspace"
+[dependencies.icentral-workspace-map]
+path = "../icentral-workspace-map"
+[dependencies.renew-traits]
+path = "../renew-traits"
+[package]
+edition = "2021"
+name = "icentral-calculate-bc-mem"
+version = "0.1.0"

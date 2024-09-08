@@ -1,0 +1,12 @@
+#!/usr/bin/env raku
+use Config::TOML;
+use Data::Dump::Tree;
+my @files = ".".IO.dir.grep(/adze/);
+for @files -> $file {
+    my $cargo-toml = $file ~ "/Cargo.toml";
+    my %toml = from-toml(file => $cargo-toml);
+    %toml{"package"}{"name"} = $file.Str;
+
+    my $output = to-toml(%toml);
+    $cargo-toml.IO.spurt: $output;
+}

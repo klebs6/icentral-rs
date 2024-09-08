@@ -1,0 +1,14 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+[dependencies.icentral-neighbors]
+path = "../icentral-neighbors"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.renew-traits]
+path = "../renew-traits"
+[package]
+edition = "2021"
+name = "icentral-label-map"
+version = "0.1.0"

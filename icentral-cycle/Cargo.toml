@@ -1,0 +1,14 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+[dependencies.icentral-edges]
+path = "../icentral-edges"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.renew-traits]
+path = "../renew-traits"
+[package]
+edition = "2021"
+name = "icentral-cycle"
+version = "0.1.0"

@@ -1,0 +1,12 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-mindexed-map]
+path = "../icentral-mindexed-map"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.renew-traits]
+path = "../renew-traits"
+[package]
+edition = "2021"
+name = "icentral-distances"
+version = "0.1.0"

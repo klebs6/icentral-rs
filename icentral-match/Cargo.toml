@@ -1,0 +1,12 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-mock]
+path = "../icentral-mock"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+[package]
+edition = "2021"
+name = "icentral-match"
+version = "0.1.0"

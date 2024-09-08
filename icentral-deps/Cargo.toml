@@ -1,0 +1,9 @@
+[build-dependencies]
+scan-crate-for-typedefs = "0.6.0"
+[dependencies]
+[dev-dependencies]
+env_logger = "*"
+[package]
+edition = "2021"
+name = "icentral-deps"
+version = "0.1.0"

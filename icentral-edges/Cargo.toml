@@ -1,0 +1,18 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-label-map]
+path = "../icentral-label-map"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.named-item]
+path = "../named-item"
+[dependencies.renew-traits]
+path = "../renew-traits"
+[package]
+edition = "2021"
+name = "icentral-edges"
+version = "0.1.0"

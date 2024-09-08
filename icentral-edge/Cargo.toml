@@ -1,0 +1,14 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-color-map]
+path = "../icentral-color-map"
+[dependencies.icentral-distances]
+path = "../icentral-distances"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-predecessor-map]
+path = "../icentral-predecessor-map"
+[package]
+edition = "2021"
+name = "icentral-edge"
+version = "0.1.0"

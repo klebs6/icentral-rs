@@ -1,0 +1,26 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-bcc]
+path = "../icentral-bcc"
+[dependencies.icentral-cycle]
+path = "../icentral-cycle"
+[dependencies.icentral-distances]
+path = "../icentral-distances"
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+[dependencies.icentral-edges]
+path = "../icentral-edges"
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+[dependencies.icentral-mucid]
+path = "../icentral-mucid"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.icentral-stats]
+path = "../icentral-stats"
+[dependencies.icentral-visit-markers]
+path = "../icentral-visit-markers"
+[package]
+edition = "2021"
+name = "icentral-graph-interface"
+version = "0.1.0"

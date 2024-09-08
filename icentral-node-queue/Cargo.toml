@@ -1,0 +1,12 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+[dependencies.named-item]
+path = "../named-item"
+[dependencies.renew-traits]
+path = "../renew-traits"
+[package]
+edition = "2021"
+name = "icentral-node-queue"
+version = "0.1.0"

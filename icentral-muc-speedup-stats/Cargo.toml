@@ -1,0 +1,6 @@
+[dependencies.icentral-deps]
+path = "../icentral-deps"
+[package]
+edition = "2021"
+name = "icentral-muc-speedup-stats"
+version = "0.1.0"
