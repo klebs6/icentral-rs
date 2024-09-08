@@ -22,16 +22,14 @@ pub fn paper_edges_for_dachshund() -> Vec<(usize, usize)> {
     ]
 }
 
-impl<'a> Named<'a> for GraphMock {
+impl Named for GraphMock {
 
-    type Name = &'a str;
-
-    fn name(&'a self) -> Self::Name {
+    fn name(&self) -> Cow<'_,str> {
         match self {
             GraphMock::PaperZero => "paper-zero",
             GraphMock::Paper     => "paper",
             GraphMock::Basic     => "basic",
-        }
+        }.into()
     }
 }
 

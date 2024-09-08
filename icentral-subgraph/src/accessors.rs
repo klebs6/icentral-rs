@@ -14,12 +14,10 @@ impl GetNodes for SubGraph {
     }
 }
 
-impl<'a> Named<'a> for SubGraph {
+impl Named for SubGraph {
 
-    type Name = &'a str;
-
-    fn name(&'a self) -> &'a str {
-        &self.name
+    fn name(&self) -> Cow<'_,str> {
+        Cow::Borrowed(&self.name)
     }
 }
 

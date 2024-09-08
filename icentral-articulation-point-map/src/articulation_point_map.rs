@@ -20,12 +20,10 @@ pub struct ArticulationPointMap {
     data: MaybeIndexedMap<Vec<usize>>,
 }
 
-impl<'a> Named<'a> for ArticulationPointMap {
+impl Named for ArticulationPointMap {
 
-    type Name = &'a str;
-
-    fn name(&'a self) -> Self::Name {
-        &self.name
+    fn name(&self) -> Cow<'_,str> {
+        Cow::Borrowed(&self.name)
     }
 }
 

@@ -56,7 +56,7 @@ where
     + RemoveEdge
     + GetNeighborsForNode
     + GetNodeIdRange
-    + for<'a> Named<'a>
+    + Named
     + CreateNamedEmpty
 {
     match op {
@@ -116,7 +116,7 @@ where GH
 + RemoveEdge
 + GetNeighborsForNode
 + GetNodeIdRange
-+ for<'a> Named<'a>
++ Named
 + CreateNamedEmpty
 + BccGraphHashInterface
 {
@@ -198,7 +198,7 @@ where Graph<GH>
 + NumEdges
 + NumNodes
 + RemoveEdge
-+ for<'a> Named<'a>
++ Named
 {
     let num_threads:     usize = num_threads.unwrap_or(1);
     let op:          Operation = op.unwrap_or(Operation::Insertion);

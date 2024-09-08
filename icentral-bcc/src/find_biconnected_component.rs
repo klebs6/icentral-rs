@@ -6,7 +6,7 @@ pub trait FindBiconnectedComponent {
 }
 
 impl<T> FindBiconnectedComponent for T 
-where T: Sized + NumNodes + for<'a> Named<'a> + GetNeighborsForNode
+where T: Sized + NumNodes + Named + GetNeighborsForNode
 {
     fn find_bicon_component<GH: BccGraphHashInterface>(&mut self, out_vec: &mut Vec<GH>) {
 

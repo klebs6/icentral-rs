@@ -1,6 +1,38 @@
 [build-dependencies]
 scan-crate-for-typedefs = "0.6.0"
 [dependencies]
+export-magic = "0.3.6"
+dachshund = "*"
+tracing-log = "*"
+tracing-setup = "*"
+float-ord = "*"
+queue = "*"
+delegate = "*"
+nanorand = "*"
+error-tree = "*"
+text_io = "*"
+pbx = "*"
+lockfree = "*"
+paste = "*"
+rand = "*"
+num-integer = "*"
+
+[dependencies.tracing]
+default-features = false
+version = "*"
+[dependencies.tracing-subscriber]
+features = [ "env-filter", "json" ]
+version = "*"
+[dependencies.time]
+features = [ "macros", "serde", "serde-well-known" ]
+version = "0.3.14"
+[dependencies.serde]
+features = [ "rc" ]
+version = "*"
+[dependencies.serde_json]
+version = "*"
+
+
 [dev-dependencies]
 env_logger = "*"
 [package]

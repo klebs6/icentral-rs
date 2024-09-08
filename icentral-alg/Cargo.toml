@@ -2,6 +2,7 @@
 disable_macro = "*"
 libc = "*"
 mpi = "*"
+renew-traits = "0.1.0"
 [dependencies.icentral-deps]
 path = "../icentral-deps"
 [dependencies.icentral-bbfs]
@@ -64,8 +65,6 @@ path = "../icentral-timer"
 path = "../icentral-timing-update"
 [dependencies.icentral-workspace]
 path = "../icentral-workspace"
-[dependencies.renew-traits]
-path = "../renew-traits"
 [package]
 edition = "2021"
 name = "icentral-alg"

@@ -34,10 +34,9 @@ path = "../icentral-sigmas"
 path = "../icentral-subgraph"
 [dependencies.icentral-timer]
 path = "../icentral-timer"
-[dependencies.named-item]
-path = "../named-item"
-[dependencies.renew-traits]
-path = "../renew-traits"
+[dependencies]
+named-item = "0.1.0"
+renew-traits = "0.1.0"
 [package]
 edition = "2021"
 name = "icentral-delta"

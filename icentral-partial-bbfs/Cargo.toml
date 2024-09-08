@@ -14,8 +14,8 @@ path = "../icentral-nodeid"
 path = "../icentral-sigmas"
 [dependencies.icentral-workspace]
 path = "../icentral-workspace"
-[dependencies.renew-traits]
-path = "../renew-traits"
+[dependencies]
+renew-traits = "0.1.0"
 [package]
 edition = "2021"
 name = "icentral-partial-bbfs"

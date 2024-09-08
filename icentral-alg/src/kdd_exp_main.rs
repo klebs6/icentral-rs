@@ -283,5 +283,3 @@ where GH: BccGraphHashInterface,
 
     Ok(())
 }
-
-

@@ -125,7 +125,8 @@ impl Component {
 
     pub fn remap_articulation_point_map(&mut self) {
 
-        let mut new_articulation_point_map = ArticulationPointMap::empty_mapped(self.articulation_point_map.name());
+        let mut new_articulation_point_map 
+            = ArticulationPointMap::empty_mapped(&self.articulation_point_map.name());
 
         for (k,v) in self.articulation_point_map.iter() {
 

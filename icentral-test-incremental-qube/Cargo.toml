@@ -26,8 +26,8 @@ path = "../icentral-scores"
 path = "../icentral-stats"
 [dependencies.icentral-timer]
 path = "../icentral-timer"
-[dependencies.renew-traits]
-path = "../renew-traits"
+[dependencies]
+renew-traits = "0.1.0"
 [package]
 edition = "2021"
 name = "icentral-test-incremental-qube"

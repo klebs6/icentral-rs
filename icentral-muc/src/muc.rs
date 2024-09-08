@@ -90,12 +90,10 @@ impl<GH> Default for MinimumUnionCycle<GH> {
     }
 }
 
-impl<GH> Named<'_> for MinimumUnionCycle<GH> {
+impl<GH> Named for MinimumUnionCycle<GH> {
 
-    type Name = String;
-
-    fn name(&self) -> Self::Name {
-        format!("muc_with_id{}", self.id)
+    fn name(&self) -> Cow<'_,str> {
+        Cow::Owned(format!("muc_with_id{}", self.id))
     }
 }
 

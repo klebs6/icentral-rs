@@ -37,8 +37,9 @@ impl HasEdge for Edges {
 
 impl SetName for Edges {
 
-    fn set_name(&mut self, name: &str) {
+    fn set_name(&mut self, name: &str) -> Result<(),NameError> {
         self.name = name.to_owned();
+        Ok(())
     }
 }
 

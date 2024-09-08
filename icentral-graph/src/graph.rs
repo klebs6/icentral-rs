@@ -143,12 +143,10 @@ impl<GH> NumEdges for Graph<GH> {
     }
 }
 
-impl<'a,GH> Named<'a> for Graph<GH> {
+impl<GH> Named for Graph<GH> {
 
-    type Name = &'a str;
-
-    fn name(&'a self) -> &'a str {
-        &self.graph_name
+    fn name(&self) -> Cow<'_,str> {
+        Cow::Borrowed(&self.graph_name)
     }
 }
 
@@ -235,7 +233,7 @@ impl<GH> From<GraphMock> for Graph<GH> {
 
         let name = mock.name();
 
-        let mut g = Graph::empty(name);
+        let mut g = Graph::empty(&name);
 
         mock.fill(&mut g);
 

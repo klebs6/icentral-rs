@@ -144,12 +144,10 @@ impl MappedNodes for GraphHash {
     }
 }
 
-impl<'a> Named<'a> for GraphHash {
+impl Named for GraphHash {
 
-    type Name = &'a str;
-
-    fn name(&'a self) -> &'a str {
-        &self.name
+    fn name(&self) -> Cow<'_,str> {
+        Cow::Borrowed(&self.name)
     }
 }
 

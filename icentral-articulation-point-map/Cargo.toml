@@ -4,8 +4,9 @@ path = "../icentral-deps"
 path = "../icentral-mindexed-map"
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
-[dependencies.named-item]
-path = "../named-item"
+[dependencies]
+named-item = "0.1.0"
+renew-traits = "0.1.0"
 [package]
 edition = "2021"
 name = "icentral-articulation-point-map"

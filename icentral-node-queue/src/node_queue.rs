@@ -7,12 +7,10 @@ pub struct NodeIdQueue {
     data: Queue<NodeId>,
 }
 
-impl<'a> Named<'a> for NodeIdQueue {
+impl Named for NodeIdQueue {
 
-    type Name = &'a str;
-
-    fn name(&'a self) -> Self::Name {
-        &self.name
+    fn name(&self) -> Cow<'_, str> {
+        Cow::Borrowed(&self.name)
     }
 }
 

@@ -8,8 +8,8 @@ path = "../icentral-mindexed-map"
 path = "../icentral-mucid"
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
-[dependencies.renew-traits]
-path = "../renew-traits"
+[dependencies]
+renew-traits = "0.1.0"
 [package]
 edition = "2021"
 name = "icentral-mucid-map"

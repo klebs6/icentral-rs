@@ -24,8 +24,8 @@ path = "../icentral-sigmas"
 path = "../icentral-workspace"
 [dependencies.icentral-workspace-map]
 path = "../icentral-workspace-map"
-[dependencies.renew-traits]
-path = "../renew-traits"
+[dependencies]
+renew-traits = "0.1.0"
 [package]
 edition = "2021"
 name = "icentral-calculate-bc-mem"

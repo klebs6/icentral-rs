@@ -8,8 +8,9 @@ path = "../icentral-mindexed-map"
 path = "../icentral-nodeid"
 [dependencies.icentral-path-counts]
 path = "../icentral-path-counts"
-[dependencies.named-item]
-path = "../named-item"
+[dependencies]
+named-item = "0.1.0"
+renew-traits = "0.1.0"
 [package]
 edition = "2021"
 name = "icentral-all-pairs-shortest-path-counts"

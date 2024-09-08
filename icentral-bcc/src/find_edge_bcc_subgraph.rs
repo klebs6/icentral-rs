@@ -10,7 +10,7 @@ pub trait FindEdgeBccSubgraph {
 }
 
 impl<T> FindEdgeBccSubgraph for T 
-where T: Sized + for<'a> Named<'a> + NumNodes + GetNeighborsForNode
+where T: Sized + Named + NumNodes + GetNeighborsForNode
 {
     /**
       | the edge (@src, @dst) must be in the graph

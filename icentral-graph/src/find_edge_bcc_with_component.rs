@@ -8,7 +8,7 @@ where GH
 + CreateNamedEmpty
 + MappedNodes
 + NumNodes
-+ for<'a> Named<'a>
++ Named
 + GetNeighborsForNode
 + GetNodeIdRange
 + GetEdges

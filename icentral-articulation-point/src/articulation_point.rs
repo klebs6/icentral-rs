@@ -26,9 +26,8 @@ impl<G> FindArticulationPoints for G
 where G
 : NumNodes
 + GetNeighborsForNode
-+ for<'a> Named<'a>
++ Named
 {
-
     /**
       | This function will return a vector of
       | the articulation points.
