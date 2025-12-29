@@ -149,7 +149,7 @@ impl UnlinkEdge for NeighborsMap {
     }
 }
 
-impl ReinitWithLen for NeighborsMap {
+impl crate::imports::ReinitWithLen for NeighborsMap {
 
     fn reinit(&mut self, len: usize) {
 
