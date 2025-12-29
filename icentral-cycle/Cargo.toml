@@ -1,22 +1,38 @@
+[dependencies]
+renew-traits = "0.1.0"
+
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-edge]
 path = "../icentral-edge"
 version = "0.1.0"
+
 [dependencies.icentral-edges]
 path = "../icentral-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
-[dependencies]
-renew-traits = "0.1.0"
+
 [package]
-edition = "2021"
-name = "icentral-cycle"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "data-structures",
+    "mathematics",
+    "science",
+]
 description = "This crate provides tools to represent and compute the Minimum Cycle Basis of a graph, offering efficient access and manipulation of cycles for algorithmic and theoretical analysis."
-keywords = ["graphtheory", "cyclebasis", "minimumcycle", "algorithms", "rust"]
-categories = ["algorithms", "data-structures", "mathematics", "science"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "graphtheory",
+    "cyclebasis",
+    "minimumcycle",
+    "algorithms",
+    "rust",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-cycle"
+version = "0.1.1"

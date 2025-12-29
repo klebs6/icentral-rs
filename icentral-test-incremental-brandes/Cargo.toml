@@ -1,50 +1,76 @@
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-bcc]
 path = "../icentral-bcc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-brandes]
 path = "../icentral-brandes"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-edge]
 path = "../icentral-edge"
 version = "0.1.0"
+
 [dependencies.icentral-edges]
 path = "../icentral-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-gen-rand-edges]
 path = "../icentral-gen-rand-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph]
 path = "../icentral-graph"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph-interface]
 path = "../icentral-graph-interface"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-neighbors]
 path = "../icentral-neighbors"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [dependencies.icentral-scores]
 path = "../icentral-scores"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-stats]
 path = "../icentral-stats"
 version = "0.1.0"
+
 [dependencies.icentral-timer]
 path = "../icentral-timer"
 version = "0.1.0"
+
 [package]
-edition = "2021"
-name = "icentral-test-incremental-brandes"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "network-programming",
+    "mathematics",
+    "data-structures",
+    "science",
+]
 description = "Efficiently computes betweenness centrality in dynamic graphs using incremental updates. It accelerates centrality measurements by reducing recomputation overhead as edge modifications are introduced in graphs."
-keywords = ["graph", "centrality", "dynamic", "incremental", "network"]
-categories = ["algorithms", "network-programming", "mathematics", "data-structures", "science"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "graph",
+    "centrality",
+    "dynamic",
+    "incremental",
+    "network",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-test-incremental-brandes"
+version = "0.1.1"

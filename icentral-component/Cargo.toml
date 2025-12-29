@@ -1,41 +1,64 @@
-[dependencies.icentral-3p]
-path = "../icentral-3p"
-version = "0.1.0"
-[dependencies.icentral-articulation-point-map]
-path = "../icentral-articulation-point-map"
-version = "0.1.0"
-[dependencies.icentral-distances]
-path = "../icentral-distances"
-version = "0.1.0"
-[dependencies.icentral-edge]
-path = "../icentral-edge"
-version = "0.1.0"
-[dependencies.icentral-edges]
-path = "../icentral-edges"
-version = "0.1.0"
-[dependencies.icentral-errors]
-path = "../icentral-errors"
-version = "0.1.0"
-[dependencies.icentral-graph-interface]
-path = "../icentral-graph-interface"
-version = "0.1.0"
-[dependencies.icentral-neighbors]
-path = "../icentral-neighbors"
-version = "0.1.0"
-[dependencies.icentral-nodeid]
-path = "../icentral-nodeid"
-version = "0.1.0"
-[dependencies.icentral-subgraph]
-path = "../icentral-subgraph"
-version = "0.1.0"
 [dependencies]
 named-item = "0.1.0"
 renew-traits = "0.1.0"
-[package]
-edition = "2021"
-name = "icentral-component"
+
+[dependencies.icentral-3p]
+path = "../icentral-3p"
 version = "0.1.0"
+
+[dependencies.icentral-articulation-point-map]
+path = "../icentral-articulation-point-map"
+version = "0.1.0"
+
+[dependencies.icentral-distances]
+path = "../icentral-distances"
+version = "0.1.0"
+
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+version = "0.1.0"
+
+[dependencies.icentral-edges]
+path = "../icentral-edges"
+version = "0.1.1"
+
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+version = "0.1.0"
+
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+version = "0.1.1"
+
+[dependencies.icentral-neighbors]
+path = "../icentral-neighbors"
+version = "0.1.1"
+
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+version = "0.1.0"
+
+[dependencies.icentral-subgraph]
+path = "../icentral-subgraph"
+version = "0.1.1"
+
+[package]
+categories = [
+    "algorithms",
+    "data-structures",
+    "science",
+    "mathematics",
+    "development-tools",
+]
 description = "A Rust crate for component management and edge-based betweenness centrality in graphs."
-keywords = ["graph", "betweenness", "algorithm", "component", "centrality"]
-categories = ["algorithms", "data-structures", "science", "mathematics", "development-tools"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "graph",
+    "betweenness",
+    "algorithm",
+    "component",
+    "centrality",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-component"
+version = "0.1.1"

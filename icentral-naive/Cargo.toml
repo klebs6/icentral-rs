@@ -1,33 +1,51 @@
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-all-pairs-distance]
 path = "../icentral-all-pairs-distance"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-all-pairs-shortest-path-counts]
 path = "../icentral-all-pairs-shortest-path-counts"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-graph]
 path = "../icentral-graph"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph-hash]
 path = "../icentral-graph-hash"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [dependencies.icentral-scores]
 path = "../icentral-scores"
-version = "0.1.0"
+version = "0.1.1"
 
 [package]
-edition     = "2021"
-name        = "icentral-naive"
-version     = "0.1.0"
+categories = [
+    "algorithms",
+    "data-structures",
+    "network-programming",
+    "mathematics",
+]
 description = "naive implementation of betweenness centrality"
-keywords    = ["nodeid", "mucid", "mapping", "rust", "datastructure"]
-categories  = ["algorithms", "data-structures", "network-programming", "mathematics" ]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "nodeid",
+    "mucid",
+    "mapping",
+    "rust",
+    "datastructure",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-naive"
+version = "0.1.1"

@@ -1,23 +1,38 @@
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-graph-interface]
 path = "../icentral-graph-interface"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-mindexed-map]
 path = "../icentral-mindexed-map"
 version = "0.1.0"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [package]
-edition = "2021"
-name = "icentral-scores"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "data-structures",
+    "mathematics",
+    "simulation",
+]
 description = "Rust crate for computing and managing betweenness centrality scores in network graphs via efficient algorithms and data structures."
-keywords = ["rust", "graphalgorithms", "networkanalysis", "datastructures"]
-categories = ["algorithms", "data-structures", "mathematics", "simulation"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "rust",
+    "graphalgorithms",
+    "networkanalysis",
+    "datastructures",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-scores"
+version = "0.1.1"

@@ -1,29 +1,43 @@
-[dependencies.icentral-3p]
-path = "../icentral-3p"
-version = "0.1.0"
-[dependencies.icentral-distances]
-path = "../icentral-distances"
-version = "0.1.0"
-[dependencies.icentral-graph-interface]
-path = "../icentral-graph-interface"
-version = "0.1.0"
-[dependencies.icentral-mindexed-map]
-path = "../icentral-mindexed-map"
-version = "0.1.0"
-[dependencies.icentral-nodeid]
-path = "../icentral-nodeid"
-version = "0.1.0"
 [dependencies]
 named-item = "0.1.0"
 renew-traits = "0.1.0"
-[package]
-name = "icentral-all-pairs-distance"
-version = "0.1.0"
-authors = ["klebs tpk3.mx@gmail.com"]
-edition = "2021"
-description = "A Rust crate for managing and manipulating all-pairs distance data in large graphs."
-license = "MIT OR Apache-2.0"
-repository = "https://github.com/your-repo/icentral-all-pairs-distance"
-keywords = ["graph-algorithms", "all-pairs", "distance-map", "indexed", "mapped"]
-categories = ["algorithms", "data-structures"]
 
+[dependencies.icentral-3p]
+path = "../icentral-3p"
+version = "0.1.0"
+
+[dependencies.icentral-distances]
+path = "../icentral-distances"
+version = "0.1.0"
+
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+version = "0.1.1"
+
+[dependencies.icentral-mindexed-map]
+path = "../icentral-mindexed-map"
+version = "0.1.0"
+
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+version = "0.1.0"
+
+[package]
+authors = ["klebs tpk3.mx@gmail.com"]
+categories = [
+    "algorithms",
+    "data-structures",
+]
+description = "A Rust crate for managing and manipulating all-pairs distance data in large graphs."
+edition = "2021"
+keywords = [
+    "graph-algorithms",
+    "all-pairs",
+    "distance-map",
+    "indexed",
+    "mapped",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-all-pairs-distance"
+repository = "https://github.com/your-repo/icentral-all-pairs-distance"
+version = "0.1.1"

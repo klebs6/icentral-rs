@@ -1,116 +1,150 @@
-[package]
-name        = "icentral-alg"
-version     = "0.1.0"
-authors     = ["klebs tpk3.mx@gmail.com"]
-edition     = "2021"
-description = "A Rust crate for incremental and parallel betweenness centrality algorithms."
-license     = "MIT OR Apache-2.0"
-repository  = "https://github.com/your-repo/icentral-alg"
-keywords    = [ "graph-algorithms", "parallel", "incremental"]
-categories  = ["algorithms"]
+[[bin]]
+name = "icentral"
+path = "src/main.rs"
 
 [dependencies]
 disable_macro = "0.3.6"
 libc = "0.2"
 renew-traits = "0.1.0"
 
-[target.'cfg(target_feature = "mpi")'.dependencies.mpi]
-version = "0.8.0"
-
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-bbfs]
 path = "../icentral-bbfs"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-bcc]
 path = "../icentral-bcc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-component]
 path = "../icentral-component"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-distances]
 path = "../icentral-distances"
 version = "0.1.0"
+
 [dependencies.icentral-edge]
 path = "../icentral-edge"
 version = "0.1.0"
+
 [dependencies.icentral-edges]
 path = "../icentral-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-gen-rand-edges]
 path = "../icentral-gen-rand-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph]
 path = "../icentral-graph"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph-hash]
 path = "../icentral-graph-hash"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph-interface]
 path = "../icentral-graph-interface"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-muc]
 path = "../icentral-muc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-neighbors]
 path = "../icentral-neighbors"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [dependencies.icentral-operation]
 path = "../icentral-operation"
 version = "0.1.0"
+
 [dependencies.icentral-pair-dependencies]
 path = "../icentral-pair-dependencies"
 version = "0.1.0"
+
 [dependencies.icentral-parents-map]
 path = "../icentral-parents-map"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-partial-bbfs]
 path = "../icentral-partial-bbfs"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-path-counts]
 path = "../icentral-path-counts"
 version = "0.1.0"
+
 [dependencies.icentral-rbfs]
 path = "../icentral-rbfs"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-scores]
 path = "../icentral-scores"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-sigmas]
 path = "../icentral-sigmas"
 version = "0.1.0"
+
 [dependencies.icentral-test-brandes]
 path = "../icentral-test-brandes"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-test-fuad]
 path = "../icentral-test-fuad"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-test-incremental-brandes]
 path = "../icentral-test-incremental-brandes"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-test-incremental-qube]
 path = "../icentral-test-incremental-qube"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-test-qube]
 path = "../icentral-test-qube"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-timer]
 path = "../icentral-timer"
 version = "0.1.0"
+
 [dependencies.icentral-timing-update]
 path = "../icentral-timing-update"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-workspace]
 path = "../icentral-workspace"
-version = "0.1.0"
+version = "0.1.1"
 
-[[bin]]
-name = "icentral"
-path = "src/main.rs"
+[package]
+authors = ["klebs tpk3.mx@gmail.com"]
+categories = ["algorithms"]
+description = "A Rust crate for incremental and parallel betweenness centrality algorithms."
+edition = "2021"
+keywords = [
+    "graph-algorithms",
+    "parallel",
+    "incremental",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-alg"
+repository = "https://github.com/your-repo/icentral-alg"
+version = "0.1.1"
+
+[target.'cfg(target_feature = "mpi")'.dependencies.mpi]
+version = "0.8.0"

@@ -1,24 +1,30 @@
-[dependencies.icentral-3p]
-path = "../icentral-3p"
-version = "0.1.0"
-[dependencies.icentral-graph-interface]
-path = "../icentral-graph-interface"
-version = "0.1.0"
-[dependencies.icentral-mindexed-map]
-path = "../icentral-mindexed-map"
-version = "0.1.0"
-[dependencies.icentral-nodeid]
-path = "../icentral-nodeid"
-version = "0.1.0"
-[dependencies.icentral-path-counts]
-path = "../icentral-path-counts"
-version = "0.1.0"
 [dependencies]
 named-item = "0.1.0"
 renew-traits = "0.1.0"
-[package]
-edition = "2021"
-name = "icentral-all-pairs-shortest-path-counts"
+
+[dependencies.icentral-3p]
+path = "../icentral-3p"
 version = "0.1.0"
-license     = "MIT OR Apache-2.0"
+
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+version = "0.1.1"
+
+[dependencies.icentral-mindexed-map]
+path = "../icentral-mindexed-map"
+version = "0.1.0"
+
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+version = "0.1.0"
+
+[dependencies.icentral-path-counts]
+path = "../icentral-path-counts"
+version = "0.1.0"
+
+[package]
 description = "contains data structures used within the icentral system for counting all pairs shortest paths"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+name = "icentral-all-pairs-shortest-path-counts"
+version = "0.1.1"

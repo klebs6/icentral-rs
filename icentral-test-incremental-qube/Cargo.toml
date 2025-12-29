@@ -1,52 +1,77 @@
+[dependencies]
+renew-traits = "0.1.0"
+
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-brandes]
 path = "../icentral-brandes"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-edge]
 path = "../icentral-edge"
 version = "0.1.0"
+
 [dependencies.icentral-edges]
 path = "../icentral-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-graph]
 path = "../icentral-graph"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph-interface]
 path = "../icentral-graph-interface"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-muc]
 path = "../icentral-muc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-mucid]
 path = "../icentral-mucid"
 version = "0.1.0"
+
 [dependencies.icentral-neighbors]
 path = "../icentral-neighbors"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [dependencies.icentral-scores]
 path = "../icentral-scores"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-stats]
 path = "../icentral-stats"
 version = "0.1.0"
+
 [dependencies.icentral-timer]
 path = "../icentral-timer"
 version = "0.1.0"
-[dependencies]
-renew-traits = "0.1.0"
+
 [package]
-edition = "2021"
-name = "icentral-test-incremental-qube"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "data-structures",
+    "mathematics",
+]
 description = "Rust crate offering efficient algorithms for incremental betweenness centrality computation in dynamic graph structures using MUCs."
-keywords = ["incremental", "betweenness", "centrality", "graph", "optimization"]
-categories = ["algorithms", "data-structures", "mathematics"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "incremental",
+    "betweenness",
+    "centrality",
+    "graph",
+    "optimization",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-test-incremental-qube"
+version = "0.1.1"

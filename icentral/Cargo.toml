@@ -1,243 +1,332 @@
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-alg]
 path = "../icentral-alg"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-all-pairs-distance]
 path = "../icentral-all-pairs-distance"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-all-pairs-shortest-path-counts]
 path = "../icentral-all-pairs-shortest-path-counts"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-articulation-point]
 path = "../icentral-articulation-point"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-articulation-point-map]
 path = "../icentral-articulation-point-map"
 version = "0.1.0"
+
 [dependencies.icentral-bbfs]
 path = "../icentral-bbfs"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-bc-mem]
 path = "../icentral-bc-mem"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-bcc]
 path = "../icentral-bcc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-brandes]
 path = "../icentral-brandes"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-bridge-edges]
 path = "../icentral-bridge-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-calculate-bc-mem]
 path = "../icentral-calculate-bc-mem"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-color-map]
 path = "../icentral-color-map"
 version = "0.1.0"
+
 [dependencies.icentral-compare-runtime]
 path = "../icentral-compare-runtime"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-component]
 path = "../icentral-component"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-conn-vertex-map]
 path = "../icentral-conn-vertex-map"
 version = "0.1.0"
+
 [dependencies.icentral-count-bcc]
 path = "../icentral-count-bcc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-cycle]
 path = "../icentral-cycle"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-delta]
 path = "../icentral-delta"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-deltas]
 path = "../icentral-deltas"
 version = "0.1.0"
+
 [dependencies.icentral-distances]
 path = "../icentral-distances"
 version = "0.1.0"
+
 [dependencies.icentral-edge]
 path = "../icentral-edge"
 version = "0.1.0"
+
 [dependencies.icentral-edges]
 path = "../icentral-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-fast-brandes]
 path = "../icentral-fast-brandes"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-gen-rand-edges]
 path = "../icentral-gen-rand-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph]
 path = "../icentral-graph"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph-hash]
 path = "../icentral-graph-hash"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph-interface]
 path = "../icentral-graph-interface"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-json]
 path = "../icentral-json"
 version = "0.1.0"
+
 [dependencies.icentral-label-map]
 path = "../icentral-label-map"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-largest-bcc]
 path = "../icentral-largest-bcc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-match]
 path = "../icentral-match"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-mindexed-map]
 path = "../icentral-mindexed-map"
 version = "0.1.0"
+
 [dependencies.icentral-mock]
 path = "../icentral-mock"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-muc]
 path = "../icentral-muc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-muc-speedup-stats]
 path = "../icentral-muc-speedup-stats"
 version = "0.1.0"
+
 [dependencies.icentral-mucid]
 path = "../icentral-mucid"
 version = "0.1.0"
+
 [dependencies.icentral-mucid-map]
 path = "../icentral-mucid-map"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-naive]
 path = "../icentral-naive"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-neighbors]
 path = "../icentral-neighbors"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-node-queue]
 path = "../icentral-node-queue"
 version = "0.1.0"
+
 [dependencies.icentral-node-stack]
 path = "../icentral-node-stack"
 version = "0.1.0"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [dependencies.icentral-operation]
 path = "../icentral-operation"
 version = "0.1.0"
+
 [dependencies.icentral-operation-update]
 path = "../icentral-operation-update"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-pair-dependencies]
 path = "../icentral-pair-dependencies"
 version = "0.1.0"
+
 [dependencies.icentral-parallel-brandes]
 path = "../icentral-parallel-brandes"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-parents-map]
 path = "../icentral-parents-map"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-partial-bbfs]
 path = "../icentral-partial-bbfs"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-path-counts]
 path = "../icentral-path-counts"
 version = "0.1.0"
+
 [dependencies.icentral-predecessor-map]
 path = "../icentral-predecessor-map"
 version = "0.1.0"
+
 [dependencies.icentral-qube]
 path = "../icentral-qube"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-rbfs]
 path = "../icentral-rbfs"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-scores]
 path = "../icentral-scores"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-scratch]
 path = "../icentral-scratch"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-sigmas]
 path = "../icentral-sigmas"
 version = "0.1.0"
+
 [dependencies.icentral-speedup-calculation]
 path = "../icentral-speedup-calculation"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-stats]
 path = "../icentral-stats"
 version = "0.1.0"
+
 [dependencies.icentral-subgraph]
 path = "../icentral-subgraph"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-subgraph-map]
 path = "../icentral-subgraph-map"
 version = "0.1.0"
+
 [dependencies.icentral-test-basic-icentral]
 path = "../icentral-test-basic-icentral"
 version = "0.1.0"
+
 [dependencies.icentral-test-brandes]
 path = "../icentral-test-brandes"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-test-fast-brandes]
 path = "../icentral-test-fast-brandes"
 version = "0.1.0"
+
 [dependencies.icentral-test-fuad]
 path = "../icentral-test-fuad"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-test-incremental-brandes]
 path = "../icentral-test-incremental-brandes"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-test-incremental-qube]
 path = "../icentral-test-incremental-qube"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-test-insertion]
 path = "../icentral-test-insertion"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-test-largest-bcc-speedup]
 path = "../icentral-test-largest-bcc-speedup"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-test-qube]
 path = "../icentral-test-qube"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-test-rustworkx]
 path = "../icentral-test-rustworkx"
 version = "0.1.0"
+
 [dependencies.icentral-test-speedup]
 path = "../icentral-test-speedup"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-test-update]
 path = "../icentral-test-update"
 version = "0.1.0"
+
 [dependencies.icentral-timer]
 path = "../icentral-timer"
 version = "0.1.0"
+
 [dependencies.icentral-timing-update]
 path = "../icentral-timing-update"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-visit-markers]
 path = "../icentral-visit-markers"
 version = "0.1.0"
+
 [dependencies.icentral-workspace]
 path = "../icentral-workspace"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-workspace-map]
 path = "../icentral-workspace-map"
-version = "0.1.0"
+version = "0.1.1"
 
 [package]
-edition     = "2021"
-name        = "icentral"
-version     = "0.1.0"
+categories = [
+    "command-line-utilities",
+    "development-tools",
+    "asynchronous",
+    "parsing",
+    "rust-patterns",
+]
 description = "iCentral is a command-line interface development utility in Rust, providing argument parsing, subcommand management, dynamic flag implementation, and asynchronous operation support for efficient CLI application development."
-keywords    = ["commandline", "cli", "argumentparsing", "asynchronous", "rust"]
-categories  = ["command-line-utilities", "development-tools", "asynchronous", "parsing", "rust-patterns"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "commandline",
+    "cli",
+    "argumentparsing",
+    "asynchronous",
+    "rust",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral"
+version = "0.1.1"

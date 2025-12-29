@@ -1,34 +1,53 @@
+[dependencies]
+renew-traits = "0.1.0"
+
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-component]
 path = "../icentral-component"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-edge]
 path = "../icentral-edge"
 version = "0.1.0"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-node-queue]
 path = "../icentral-node-queue"
 version = "0.1.0"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [dependencies.icentral-sigmas]
 path = "../icentral-sigmas"
 version = "0.1.0"
+
 [dependencies.icentral-workspace]
 path = "../icentral-workspace"
-version = "0.1.0"
-[dependencies]
-renew-traits = "0.1.0"
+version = "0.1.1"
+
 [package]
-edition = "2021"
-name = "icentral-partial-bbfs"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "data-structures",
+    "network-programming",
+    "science",
+]
 description = "Efficiently update betweenness centrality through Partial Brandes' Breadth-First Search in dynamically changing graphs."
-keywords = [ "graphalgorithms", "dynamicgraphupdates", "rust", "icentral"]
-categories = ["algorithms", "data-structures", "network-programming", "science"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "graphalgorithms",
+    "dynamicgraphupdates",
+    "rust",
+    "icentral",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-partial-bbfs"
+version = "0.1.1"

@@ -1,64 +1,95 @@
+[dependencies]
+renew-traits = "0.1.0"
+
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-bc-mem]
 path = "../icentral-bc-mem"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-bcc]
 path = "../icentral-bcc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-brandes]
 path = "../icentral-brandes"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-calculate-bc-mem]
 path = "../icentral-calculate-bc-mem"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-component]
 path = "../icentral-component"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-edge]
 path = "../icentral-edge"
 version = "0.1.0"
+
 [dependencies.icentral-edges]
 path = "../icentral-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-gen-rand-edges]
 path = "../icentral-gen-rand-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph]
 path = "../icentral-graph"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph-interface]
 path = "../icentral-graph-interface"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [dependencies.icentral-operation]
 path = "../icentral-operation"
 version = "0.1.0"
+
 [dependencies.icentral-scores]
 path = "../icentral-scores"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-stats]
 path = "../icentral-stats"
 version = "0.1.0"
+
 [dependencies.icentral-timer]
 path = "../icentral-timer"
 version = "0.1.0"
+
 [dependencies.icentral-workspace-map]
 path = "../icentral-workspace-map"
-version = "0.1.0"
-[dependencies]
-renew-traits = "0.1.0"
+version = "0.1.1"
+
 [package]
-edition = "2021"
-name = "icentral-timing-update"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "simulation",
+    "network-programming",
+    "asynchronous",
+    "science",
+]
 description = "A crate for dynamically updating betweenness centrality in graphs, supporting MPI and multithreading for efficient large-scale graph computations."
-keywords = ["betweenness", "graph", "mpi", "parallel", "update"]
-license     = "MIT OR Apache-2.0"
-categories = ["algorithms", "simulation", "network-programming", "asynchronous", "science"]
+edition = "2021"
+keywords = [
+    "betweenness",
+    "graph",
+    "mpi",
+    "parallel",
+    "update",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-timing-update"
+version = "0.1.1"

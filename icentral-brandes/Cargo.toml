@@ -1,62 +1,91 @@
-[dependencies.icentral-3p]
-path = "../icentral-3p"
-version = "0.1.0"
-[dependencies.icentral-bbfs]
-path = "../icentral-bbfs"
-version = "0.1.0"
-[dependencies.icentral-component]
-path = "../icentral-component"
-version = "0.1.0"
-[dependencies.icentral-distances]
-path = "../icentral-distances"
-version = "0.1.0"
-[dependencies.icentral-errors]
-path = "../icentral-errors"
-version = "0.1.0"
-[dependencies.icentral-graph-interface]
-path = "../icentral-graph-interface"
-version = "0.1.0"
-[dependencies.icentral-neighbors]
-path = "../icentral-neighbors"
-version = "0.1.0"
-[dependencies.icentral-node-queue]
-path = "../icentral-node-queue"
-version = "0.1.0"
-[dependencies.icentral-node-stack]
-path = "../icentral-node-stack"
-version = "0.1.0"
-[dependencies.icentral-nodeid]
-path = "../icentral-nodeid"
-version = "0.1.0"
-[dependencies.icentral-pair-dependencies]
-path = "../icentral-pair-dependencies"
-version = "0.1.0"
-[dependencies.icentral-parents-map]
-path = "../icentral-parents-map"
-version = "0.1.0"
-[dependencies.icentral-path-counts]
-path = "../icentral-path-counts"
-version = "0.1.0"
-[dependencies.icentral-rbfs]
-path = "../icentral-rbfs"
-version = "0.1.0"
-[dependencies.icentral-scores]
-path = "../icentral-scores"
-version = "0.1.0"
-[dependencies.icentral-timer]
-path = "../icentral-timer"
-version = "0.1.0"
-[dependencies.icentral-workspace]
-path = "../icentral-workspace"
-version = "0.1.0"
 [dependencies]
 named-item = "0.1.0"
 renew-traits = "0.1.0"
-[package]
-edition = "2021"
-name = "icentral-brandes"
+
+[dependencies.icentral-3p]
+path = "../icentral-3p"
 version = "0.1.0"
+
+[dependencies.icentral-bbfs]
+path = "../icentral-bbfs"
+version = "0.1.1"
+
+[dependencies.icentral-component]
+path = "../icentral-component"
+version = "0.1.1"
+
+[dependencies.icentral-distances]
+path = "../icentral-distances"
+version = "0.1.0"
+
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+version = "0.1.0"
+
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+version = "0.1.1"
+
+[dependencies.icentral-neighbors]
+path = "../icentral-neighbors"
+version = "0.1.1"
+
+[dependencies.icentral-node-queue]
+path = "../icentral-node-queue"
+version = "0.1.0"
+
+[dependencies.icentral-node-stack]
+path = "../icentral-node-stack"
+version = "0.1.0"
+
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+version = "0.1.0"
+
+[dependencies.icentral-pair-dependencies]
+path = "../icentral-pair-dependencies"
+version = "0.1.0"
+
+[dependencies.icentral-parents-map]
+path = "../icentral-parents-map"
+version = "0.1.1"
+
+[dependencies.icentral-path-counts]
+path = "../icentral-path-counts"
+version = "0.1.0"
+
+[dependencies.icentral-rbfs]
+path = "../icentral-rbfs"
+version = "0.1.1"
+
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+version = "0.1.1"
+
+[dependencies.icentral-timer]
+path = "../icentral-timer"
+version = "0.1.0"
+
+[dependencies.icentral-workspace]
+path = "../icentral-workspace"
+version = "0.1.1"
+
+[package]
+categories = [
+    "algorithms",
+    "data-structures",
+    "science",
+    "simulation",
+    "mathematics",
+]
 description = "Efficient Rust implementation of the Brandes algorithm for computing betweenness centrality in complex graph structures. Includes support for incremental updates and employs multi-threading for enhanced performance."
-keywords = ["brandes", "graphalgorithm", "incremental", "parallelcomputation"]
-categories = ["algorithms", "data-structures", "science", "simulation", "mathematics"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "brandes",
+    "graphalgorithm",
+    "incremental",
+    "parallelcomputation",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-brandes"
+version = "0.1.1"

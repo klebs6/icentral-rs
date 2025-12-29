@@ -1,49 +1,73 @@
+[dependencies]
+renew-traits = "0.1.0"
+
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-edge]
 path = "../icentral-edge"
 version = "0.1.0"
+
 [dependencies.icentral-edges]
 path = "../icentral-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-gen-rand-edges]
 path = "../icentral-gen-rand-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph]
 path = "../icentral-graph"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph-interface]
 path = "../icentral-graph-interface"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-muc]
 path = "../icentral-muc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-muc-speedup-stats]
 path = "../icentral-muc-speedup-stats"
 version = "0.1.0"
+
 [dependencies.icentral-mucid]
 path = "../icentral-mucid"
 version = "0.1.0"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [dependencies.icentral-stats]
 path = "../icentral-stats"
 version = "0.1.0"
+
 [dependencies.icentral-timer]
 path = "../icentral-timer"
 version = "0.1.0"
-[dependencies]
-renew-traits = "0.1.0"
+
 [package]
-edition = "2021"
-name = "icentral-speedup-calculation"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "science",
+    "simulation",
+]
 description = "Rust library for efficient graph traversal and speedup calculations using Betweenness Centrality and MUC detection techniques."
-keywords = ["graph", "speedup", "betweenness", "minimumunioncycle", "optimization"]
-categories = ["algorithms", "science", "simulation"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "graph",
+    "speedup",
+    "betweenness",
+    "minimumunioncycle",
+    "optimization",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-speedup-calculation"
+version = "0.1.1"

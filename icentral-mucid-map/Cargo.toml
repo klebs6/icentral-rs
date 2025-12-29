@@ -1,25 +1,43 @@
+[dependencies]
+renew-traits = "0.1.0"
+
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-graph-interface]
 path = "../icentral-graph-interface"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-mindexed-map]
 path = "../icentral-mindexed-map"
 version = "0.1.0"
+
 [dependencies.icentral-mucid]
 path = "../icentral-mucid"
 version = "0.1.0"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
-[dependencies]
-renew-traits = "0.1.0"
+
 [package]
-edition = "2021"
-name = "icentral-mucid-map"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "data-structures",
+    "network-programming",
+    "mathematics",
+    "parsing",
+]
 description = "Maps between NodeId and MucId using a high-performance, extensible Rust data structure called MucIdMap. Ideal for optimized node-based applications."
-keywords = ["nodeid", "mucid", "mapping", "rust", "datastructure"]
-categories = ["algorithms", "data-structures", "network-programming", "mathematics", "parsing"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "nodeid",
+    "mucid",
+    "mapping",
+    "rust",
+    "datastructure",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-mucid-map"
+version = "0.1.1"

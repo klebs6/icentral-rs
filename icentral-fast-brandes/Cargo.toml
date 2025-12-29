@@ -1,38 +1,59 @@
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-brandes]
 path = "../icentral-brandes"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-component]
 path = "../icentral-component"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-edges]
 path = "../icentral-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-graph-interface]
 path = "../icentral-graph-interface"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-neighbors]
 path = "../icentral-neighbors"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [dependencies.icentral-scores]
 path = "../icentral-scores"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-workspace]
 path = "../icentral-workspace"
-version = "0.1.0"
+version = "0.1.1"
+
 [package]
-edition = "2021"
-name = "icentral-fast-brandes"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "data-structures",
+    "science",
+    "mathematics",
+]
 description = "Efficient Rust implementation of Brandes algorithm for computing betweenness centrality on graphs with support for complex structures."
-keywords = ["centrality", "brandes", "graph", "betweenness", "algorithm"]
-categories = ["algorithms", "data-structures", "science", "mathematics"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "centrality",
+    "brandes",
+    "graph",
+    "betweenness",
+    "algorithm",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-fast-brandes"
+version = "0.1.1"

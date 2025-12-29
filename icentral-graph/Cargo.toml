@@ -1,104 +1,148 @@
-[dependencies.icentral-3p]
-path = "../icentral-3p"
-version = "0.1.0"
-[dependencies.icentral-articulation-point]
-path = "../icentral-articulation-point"
-version = "0.1.0"
-[dependencies.icentral-articulation-point-map]
-path = "../icentral-articulation-point-map"
-version = "0.1.0"
-[dependencies.icentral-bcc]
-path = "../icentral-bcc"
-version = "0.1.0"
-[dependencies.icentral-brandes]
-path = "../icentral-brandes"
-version = "0.1.0"
-[dependencies.icentral-bridge-edges]
-path = "../icentral-bridge-edges"
-version = "0.1.0"
-[dependencies.icentral-component]
-path = "../icentral-component"
-version = "0.1.0"
-[dependencies.icentral-cycle]
-path = "../icentral-cycle"
-version = "0.1.0"
-[dependencies.icentral-delta]
-path = "../icentral-delta"
-version = "0.1.0"
-[dependencies.icentral-distances]
-path = "../icentral-distances"
-version = "0.1.0"
-[dependencies.icentral-edge]
-path = "../icentral-edge"
-version = "0.1.0"
-[dependencies.icentral-edges]
-path = "../icentral-edges"
-version = "0.1.0"
-[dependencies.icentral-errors]
-path = "../icentral-errors"
-version = "0.1.0"
-[dependencies.icentral-graph-interface]
-path = "../icentral-graph-interface"
-version = "0.1.0"
-[dependencies.icentral-mindexed-map]
-path = "../icentral-mindexed-map"
-version = "0.1.0"
-[dependencies.icentral-mock]
-path = "../icentral-mock"
-version = "0.1.0"
-[dependencies.icentral-muc]
-path = "../icentral-muc"
-version = "0.1.0"
-[dependencies.icentral-mucid]
-path = "../icentral-mucid"
-version = "0.1.0"
-[dependencies.icentral-mucid-map]
-path = "../icentral-mucid-map"
-version = "0.1.0"
-[dependencies.icentral-neighbors]
-path = "../icentral-neighbors"
-version = "0.1.0"
-[dependencies.icentral-node-queue]
-path = "../icentral-node-queue"
-version = "0.1.0"
-[dependencies.icentral-nodeid]
-path = "../icentral-nodeid"
-version = "0.1.0"
-[dependencies.icentral-pair-dependencies]
-path = "../icentral-pair-dependencies"
-version = "0.1.0"
-[dependencies.icentral-parents-map]
-path = "../icentral-parents-map"
-version = "0.1.0"
-[dependencies.icentral-path-counts]
-path = "../icentral-path-counts"
-version = "0.1.0"
-[dependencies.icentral-predecessor-map]
-path = "../icentral-predecessor-map"
-version = "0.1.0"
-[dependencies.icentral-scores]
-path = "../icentral-scores"
-version = "0.1.0"
-[dependencies.icentral-scratch]
-path = "../icentral-scratch"
-version = "0.1.0"
-[dependencies.icentral-sigmas]
-path = "../icentral-sigmas"
-version = "0.1.0"
-[dependencies.icentral-timer]
-path = "../icentral-timer"
-version = "0.1.0"
-[dependencies.icentral-visit-markers]
-path = "../icentral-visit-markers"
-version = "0.1.0"
 [dependencies]
 named-item = "0.1.0"
 renew-traits = "0.1.0"
-[package]
-edition = "2021"
-name = "icentral-graph"
+
+[dependencies.icentral-3p]
+path = "../icentral-3p"
 version = "0.1.0"
+
+[dependencies.icentral-articulation-point]
+path = "../icentral-articulation-point"
+version = "0.1.1"
+
+[dependencies.icentral-articulation-point-map]
+path = "../icentral-articulation-point-map"
+version = "0.1.0"
+
+[dependencies.icentral-bcc]
+path = "../icentral-bcc"
+version = "0.1.1"
+
+[dependencies.icentral-brandes]
+path = "../icentral-brandes"
+version = "0.1.1"
+
+[dependencies.icentral-bridge-edges]
+path = "../icentral-bridge-edges"
+version = "0.1.1"
+
+[dependencies.icentral-component]
+path = "../icentral-component"
+version = "0.1.1"
+
+[dependencies.icentral-cycle]
+path = "../icentral-cycle"
+version = "0.1.1"
+
+[dependencies.icentral-delta]
+path = "../icentral-delta"
+version = "0.1.1"
+
+[dependencies.icentral-distances]
+path = "../icentral-distances"
+version = "0.1.0"
+
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+version = "0.1.0"
+
+[dependencies.icentral-edges]
+path = "../icentral-edges"
+version = "0.1.1"
+
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+version = "0.1.0"
+
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+version = "0.1.1"
+
+[dependencies.icentral-mindexed-map]
+path = "../icentral-mindexed-map"
+version = "0.1.0"
+
+[dependencies.icentral-mock]
+path = "../icentral-mock"
+version = "0.1.1"
+
+[dependencies.icentral-muc]
+path = "../icentral-muc"
+version = "0.1.1"
+
+[dependencies.icentral-mucid]
+path = "../icentral-mucid"
+version = "0.1.0"
+
+[dependencies.icentral-mucid-map]
+path = "../icentral-mucid-map"
+version = "0.1.1"
+
+[dependencies.icentral-neighbors]
+path = "../icentral-neighbors"
+version = "0.1.1"
+
+[dependencies.icentral-node-queue]
+path = "../icentral-node-queue"
+version = "0.1.0"
+
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+version = "0.1.0"
+
+[dependencies.icentral-pair-dependencies]
+path = "../icentral-pair-dependencies"
+version = "0.1.0"
+
+[dependencies.icentral-parents-map]
+path = "../icentral-parents-map"
+version = "0.1.1"
+
+[dependencies.icentral-path-counts]
+path = "../icentral-path-counts"
+version = "0.1.0"
+
+[dependencies.icentral-predecessor-map]
+path = "../icentral-predecessor-map"
+version = "0.1.0"
+
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+version = "0.1.1"
+
+[dependencies.icentral-scratch]
+path = "../icentral-scratch"
+version = "0.1.1"
+
+[dependencies.icentral-sigmas]
+path = "../icentral-sigmas"
+version = "0.1.0"
+
+[dependencies.icentral-timer]
+path = "../icentral-timer"
+version = "0.1.0"
+
+[dependencies.icentral-visit-markers]
+path = "../icentral-visit-markers"
+version = "0.1.0"
+
+[package]
+categories = [
+    "algorithms",
+    "data-structures",
+    "science",
+    "mathematics",
+    "development-tools",
+]
 description = "A Rust library for advanced graph manipulation, focusing on minimum union cycles, betweenness centrality, and biconnected components."
-keywords = ["graph", "algorithms", "cycles", "centrality", "biconnected"]
-categories = ["algorithms", "data-structures", "science", "mathematics", "development-tools"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "graph",
+    "algorithms",
+    "cycles",
+    "centrality",
+    "biconnected",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-graph"
+version = "0.1.1"

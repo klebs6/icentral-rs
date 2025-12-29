@@ -1,23 +1,39 @@
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-bcc]
 path = "../icentral-bcc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-edges]
 path = "../icentral-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-graph-interface]
 path = "../icentral-graph-interface"
-version = "0.1.0"
+version = "0.1.1"
+
 [package]
-edition = "2021"
-name = "icentral-count-bcc"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "data-structures",
+    "science",
+    "simulation",
+    "mathematics",
+]
 description = "A Rust crate for counting biconnected components in graphs with a specified minimum number of edges, useful for network analysis and graph algorithms."
-keywords = [ "graphs", "networkanalysis", "edgecounting", "graphalgorithms"]
-categories = ["algorithms", "data-structures", "science", "simulation", "mathematics"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "graphs",
+    "networkanalysis",
+    "edgecounting",
+    "graphalgorithms",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-count-bcc"
+version = "0.1.1"

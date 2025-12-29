@@ -1,32 +1,52 @@
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-brandes]
 path = "../icentral-brandes"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-graph]
 path = "../icentral-graph"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph-interface]
 path = "../icentral-graph-interface"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [dependencies.icentral-scores]
 path = "../icentral-scores"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-timer]
 path = "../icentral-timer"
 version = "0.1.0"
+
 [package]
-edition = "2021"
-name = "icentral-compare-runtime"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "data-structures",
+    "science",
+    "mathematics",
+    "development-tools",
+]
 description = "A Rust crate for comparing brandes runtimes"
-keywords = ["graph", "betweenness", "algorithm", "component", "centrality"]
-categories = ["algorithms", "data-structures", "science", "mathematics", "development-tools"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "graph",
+    "betweenness",
+    "algorithm",
+    "component",
+    "centrality",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-compare-runtime"
+version = "0.1.1"

@@ -1,35 +1,53 @@
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-bcc]
 path = "../icentral-bcc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-edge]
 path = "../icentral-edge"
 version = "0.1.0"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-graph]
 path = "../icentral-graph"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph-hash]
 path = "../icentral-graph-hash"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph-interface]
 path = "../icentral-graph-interface"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [dependencies.icentral-stats]
 path = "../icentral-stats"
 version = "0.1.0"
+
 [package]
-edition = "2021"
-name = "icentral-test-largest-bcc-speedup"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "data-structures",
+    "science",
+]
 description = "A Rust crate that estimates computational speedups by focusing on operations within the largest biconnected component of a graph, using advanced statistical analysis techniques."
-keywords = ["graph", "speedup", "analysis", "performance"]
-categories = ["algorithms", "data-structures", "science"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "graph",
+    "speedup",
+    "analysis",
+    "performance",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-test-largest-bcc-speedup"
+version = "0.1.1"

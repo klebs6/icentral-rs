@@ -1,41 +1,62 @@
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-bcc]
 path = "../icentral-bcc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-cycle]
 path = "../icentral-cycle"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-distances]
 path = "../icentral-distances"
 version = "0.1.0"
+
 [dependencies.icentral-edge]
 path = "../icentral-edge"
 version = "0.1.0"
+
 [dependencies.icentral-edges]
 path = "../icentral-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-mucid]
 path = "../icentral-mucid"
 version = "0.1.0"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [dependencies.icentral-stats]
 path = "../icentral-stats"
 version = "0.1.0"
+
 [dependencies.icentral-visit-markers]
 path = "../icentral-visit-markers"
 version = "0.1.0"
+
 [package]
-edition = "2021"
-name = "icentral-graph-interface"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "data-structures",
+    "network-programming",
+    "simulation",
+]
 description = "A Rust crate providing traits for graph manipulation, focusing on minimum union cycles, betweenness centrality, and efficient shortest path calculations."
-keywords = ["graph", "minimumunioncycle", "shortestpath", "algorithm"]
-categories = ["algorithms", "data-structures", "network-programming", "simulation"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "graph",
+    "minimumunioncycle",
+    "shortestpath",
+    "algorithm",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-graph-interface"
+version = "0.1.1"

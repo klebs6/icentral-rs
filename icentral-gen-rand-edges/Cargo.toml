@@ -1,32 +1,52 @@
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-bcc]
 path = "../icentral-bcc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-bridge-edges]
 path = "../icentral-bridge-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-edge]
 path = "../icentral-edge"
 version = "0.1.0"
+
 [dependencies.icentral-edges]
 path = "../icentral-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-graph-interface]
 path = "../icentral-graph-interface"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [package]
-edition = "2021"
-name = "icentral-gen-rand-edges"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "science",
+    "network-programming",
+    "mathematics",
+    "simulation",
+]
 description = "A Rust crate for generating random edges within graphs, catering to simulation and network analysis by allowing edge creation that avoids existing connections and bridge edges. Compatible with Rust 2021 edition."
-keywords = ["graph", "random", "edges", "simulation", "network"]
-categories = ["algorithms", "science", "network-programming", "mathematics", "simulation"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "graph",
+    "random",
+    "edges",
+    "simulation",
+    "network",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-gen-rand-edges"
+version = "0.1.1"

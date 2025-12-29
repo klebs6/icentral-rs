@@ -1,29 +1,48 @@
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-component]
 path = "../icentral-component"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-errors]
 path = "../icentral-errors"
 version = "0.1.0"
+
 [dependencies.icentral-nodeid]
 path = "../icentral-nodeid"
 version = "0.1.0"
+
 [dependencies.icentral-scores]
 path = "../icentral-scores"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-sigmas]
 path = "../icentral-sigmas"
 version = "0.1.0"
+
 [dependencies.icentral-workspace]
 path = "../icentral-workspace"
-version = "0.1.0"
+version = "0.1.1"
+
 [package]
-edition = "2021"
-name = "icentral-rbfs"
-version = "0.1.0"
+categories = [
+    "network-programming",
+    "algorithms",
+    "science",
+    "mathematics",
+    "data-structures",
+]
 description = "A Rust crate for calculating and updating betweenness centrality scores in graphs using Recursive Breit-First Search strategies, optimized for dynamic and static networks."
-keywords = ["betweenness", "centrality", "graph", "rbfs", "biconnected"]
-categories = ["network-programming", "algorithms", "science", "mathematics", "data-structures"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "betweenness",
+    "centrality",
+    "graph",
+    "rbfs",
+    "biconnected",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-rbfs"
+version = "0.1.1"

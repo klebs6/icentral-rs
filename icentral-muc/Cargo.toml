@@ -1,65 +1,95 @@
-[dependencies.icentral-3p]
-path = "../icentral-3p"
-version = "0.1.0"
-[dependencies.icentral-brandes]
-path = "../icentral-brandes"
-version = "0.1.0"
-[dependencies.icentral-conn-vertex-map]
-path = "../icentral-conn-vertex-map"
-version = "0.1.0"
-[dependencies.icentral-cycle]
-path = "../icentral-cycle"
-version = "0.1.0"
-[dependencies.icentral-edge]
-path = "../icentral-edge"
-version = "0.1.0"
-[dependencies.icentral-edges]
-path = "../icentral-edges"
-version = "0.1.0"
-[dependencies.icentral-errors]
-path = "../icentral-errors"
-version = "0.1.0"
-[dependencies.icentral-graph-interface]
-path = "../icentral-graph-interface"
-version = "0.1.0"
-[dependencies.icentral-mucid]
-path = "../icentral-mucid"
-version = "0.1.0"
-[dependencies.icentral-mucid-map]
-path = "../icentral-mucid-map"
-version = "0.1.0"
-[dependencies.icentral-neighbors]
-path = "../icentral-neighbors"
-version = "0.1.0"
-[dependencies.icentral-node-stack]
-path = "../icentral-node-stack"
-version = "0.1.0"
-[dependencies.icentral-nodeid]
-path = "../icentral-nodeid"
-version = "0.1.0"
-[dependencies.icentral-scores]
-path = "../icentral-scores"
-version = "0.1.0"
-[dependencies.icentral-sigmas]
-path = "../icentral-sigmas"
-version = "0.1.0"
-[dependencies.icentral-subgraph]
-path = "../icentral-subgraph"
-version = "0.1.0"
-[dependencies.icentral-subgraph-map]
-path = "../icentral-subgraph-map"
-version = "0.1.0"
-[dependencies.icentral-visit-markers]
-path = "../icentral-visit-markers"
-version = "0.1.0"
 [dependencies]
 named-item = "0.1.0"
 renew-traits = "0.1.0"
-[package]
-edition = "2021"
-name = "icentral-muc"
+
+[dependencies.icentral-3p]
+path = "../icentral-3p"
 version = "0.1.0"
+
+[dependencies.icentral-brandes]
+path = "../icentral-brandes"
+version = "0.1.1"
+
+[dependencies.icentral-conn-vertex-map]
+path = "../icentral-conn-vertex-map"
+version = "0.1.0"
+
+[dependencies.icentral-cycle]
+path = "../icentral-cycle"
+version = "0.1.1"
+
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+version = "0.1.0"
+
+[dependencies.icentral-edges]
+path = "../icentral-edges"
+version = "0.1.1"
+
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+version = "0.1.0"
+
+[dependencies.icentral-graph-interface]
+path = "../icentral-graph-interface"
+version = "0.1.1"
+
+[dependencies.icentral-mucid]
+path = "../icentral-mucid"
+version = "0.1.0"
+
+[dependencies.icentral-mucid-map]
+path = "../icentral-mucid-map"
+version = "0.1.1"
+
+[dependencies.icentral-neighbors]
+path = "../icentral-neighbors"
+version = "0.1.1"
+
+[dependencies.icentral-node-stack]
+path = "../icentral-node-stack"
+version = "0.1.0"
+
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+version = "0.1.0"
+
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+version = "0.1.1"
+
+[dependencies.icentral-sigmas]
+path = "../icentral-sigmas"
+version = "0.1.0"
+
+[dependencies.icentral-subgraph]
+path = "../icentral-subgraph"
+version = "0.1.1"
+
+[dependencies.icentral-subgraph-map]
+path = "../icentral-subgraph-map"
+version = "0.1.0"
+
+[dependencies.icentral-visit-markers]
+path = "../icentral-visit-markers"
+version = "0.1.0"
+
+[package]
+categories = [
+    "algorithms",
+    "mathematics",
+    "data-structures",
+    "science",
+    "network-programming",
+]
 description = "icentral-muc is a Rust crate for interacting with Minimum Union Cycles (MUCs) in graph data structures. It provides advanced traits and implementations for efficient MUC discovery, management, and analysis to aid in identifying connectivity and betweenness centrality in complex networks."
-keywords = ["graphtheory", "minimumunioncycles", "connectivity", "networkanalysis"]
-license     = "MIT OR Apache-2.0"
-categories = ["algorithms", "mathematics", "data-structures", "science", "network-programming"]
+edition = "2021"
+keywords = [
+    "graphtheory",
+    "minimumunioncycles",
+    "connectivity",
+    "networkanalysis",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-muc"
+version = "0.1.1"

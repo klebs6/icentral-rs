@@ -1,44 +1,67 @@
-[dependencies.icentral-3p]
-path = "../icentral-3p"
-version = "0.1.0"
-[dependencies.icentral-component]
-path = "../icentral-component"
-version = "0.1.0"
-[dependencies.icentral-edge]
-path = "../icentral-edge"
-version = "0.1.0"
-[dependencies.icentral-errors]
-path = "../icentral-errors"
-version = "0.1.0"
-[dependencies.icentral-mindexed-map]
-path = "../icentral-mindexed-map"
-version = "0.1.0"
-[dependencies.icentral-node-queue]
-path = "../icentral-node-queue"
-version = "0.1.0"
-[dependencies.icentral-nodeid]
-path = "../icentral-nodeid"
-version = "0.1.0"
-[dependencies.icentral-parents-map]
-path = "../icentral-parents-map"
-version = "0.1.0"
-[dependencies.icentral-scores]
-path = "../icentral-scores"
-version = "0.1.0"
-[dependencies.icentral-sigmas]
-path = "../icentral-sigmas"
-version = "0.1.0"
-[dependencies.icentral-workspace]
-path = "../icentral-workspace"
-version = "0.1.0"
 [dependencies]
 named-item = "0.1.0"
 renew-traits = "0.1.0"
-[package]
-edition = "2021"
-name = "icentral-bbfs"
+
+[dependencies.icentral-3p]
+path = "../icentral-3p"
 version = "0.1.0"
+
+[dependencies.icentral-component]
+path = "../icentral-component"
+version = "0.1.1"
+
+[dependencies.icentral-edge]
+path = "../icentral-edge"
+version = "0.1.0"
+
+[dependencies.icentral-errors]
+path = "../icentral-errors"
+version = "0.1.0"
+
+[dependencies.icentral-mindexed-map]
+path = "../icentral-mindexed-map"
+version = "0.1.0"
+
+[dependencies.icentral-node-queue]
+path = "../icentral-node-queue"
+version = "0.1.0"
+
+[dependencies.icentral-nodeid]
+path = "../icentral-nodeid"
+version = "0.1.0"
+
+[dependencies.icentral-parents-map]
+path = "../icentral-parents-map"
+version = "0.1.1"
+
+[dependencies.icentral-scores]
+path = "../icentral-scores"
+version = "0.1.1"
+
+[dependencies.icentral-sigmas]
+path = "../icentral-sigmas"
+version = "0.1.0"
+
+[dependencies.icentral-workspace]
+path = "../icentral-workspace"
+version = "0.1.1"
+
+[package]
+categories = [
+    "algorithms",
+    "data-structures",
+    "network-programming",
+    "science",
+    "mathematics",
+]
 description = "A Rust crate providing Bidirectional Breadth-First Search (BBFS) for efficient computation of betweenness centrality in large graph structures."
-keywords = ["bbfs", "graphalgorithms", "networkanalysis", "breadthfirstsearch"]
-categories = ["algorithms", "data-structures", "network-programming", "science", "mathematics"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "bbfs",
+    "graphalgorithms",
+    "networkanalysis",
+    "breadthfirstsearch",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-bbfs"
+version = "0.1.1"

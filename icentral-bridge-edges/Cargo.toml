@@ -1,23 +1,39 @@
 [dependencies.icentral-3p]
 path = "../icentral-3p"
 version = "0.1.0"
+
 [dependencies.icentral-bcc]
 path = "../icentral-bcc"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-edge]
 path = "../icentral-edge"
 version = "0.1.0"
+
 [dependencies.icentral-edges]
 path = "../icentral-edges"
-version = "0.1.0"
+version = "0.1.1"
+
 [dependencies.icentral-graph-interface]
 path = "../icentral-graph-interface"
-version = "0.1.0"
+version = "0.1.1"
+
 [package]
-edition = "2021"
-name = "icentral-bridge-edges"
-version = "0.1.0"
+categories = [
+    "algorithms",
+    "data-structures",
+    "science",
+    "network-programming",
+    "development-tools",
+]
 description = "A Rust crate for extracting bridge edges from graph structures using biconnected component analysis."
-keywords = ["bridgeedges", "graphtheory", "networkanalysis", "rust"]
-categories = ["algorithms", "data-structures", "science", "network-programming", "development-tools"]
-license     = "MIT OR Apache-2.0"
+edition = "2021"
+keywords = [
+    "bridgeedges",
+    "graphtheory",
+    "networkanalysis",
+    "rust",
+]
+license = "MIT OR Apache-2.0"
+name = "icentral-bridge-edges"
+version = "0.1.1"
