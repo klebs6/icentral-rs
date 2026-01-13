@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-color-map/src/lib.rs ]
 #[macro_use] mod imports; use imports::*;
 
 x!{color_map}

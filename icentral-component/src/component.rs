@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-component/src/component.rs ]
 crate::ix!();
 
 pub trait FindEdgeBccWithComponent<GH> {

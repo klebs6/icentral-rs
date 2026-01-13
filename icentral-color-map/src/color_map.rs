@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-color-map/src/color_map.rs ]
 crate::ix!();
 
 /// 1 means grey

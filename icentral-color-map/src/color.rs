@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-color-map/src/color.rs ]
 crate::ix!();
 
 #[derive(Clone,Default,Copy,Debug,PartialEq,Eq,PartialOrd,Ord)]

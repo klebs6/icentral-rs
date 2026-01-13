@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-errors/src/betweenness_centrality_errors.rs ]
 crate::ix!();
 
 pub type BCMaybeSuccess = Result<(),BetweennessCentralityError>;
@@ -80,4 +81,3 @@ impl<T: core::fmt::Debug> PoisonMessage for T {
 }
 
 pub type BCError = BetweennessCentralityError;
-

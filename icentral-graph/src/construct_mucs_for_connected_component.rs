@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-graph/src/construct_mucs_for_connected_component.rs ]
 crate::ix!();
 
 impl<GH> ConstructMucsForConnectedComponent<GH> for Graph<GH> 

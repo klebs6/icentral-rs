@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-subgraph/src/accessors.rs ]
 crate::ix!();
 
 impl GetEdges for SubGraph {

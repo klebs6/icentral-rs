@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-bc-mem/src/workspace.rs ]
 crate::ix!();
 
 pub struct BcMemWorkspace {

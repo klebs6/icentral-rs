@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-brandes/src/brandes_iteration_workspace.rs ]
 crate::ix!();
 
 pub struct BrandesIterationWorkspace {

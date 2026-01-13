@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-alg/src/lib.rs ]
 #[macro_use] pub mod imports; use imports::*;
 
 #[cfg(target_feature = "mpi")]

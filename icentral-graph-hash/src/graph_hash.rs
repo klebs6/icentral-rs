@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-graph-hash/src/graph_hash.rs ]
 crate::ix!();
 
 //-------------------------------------------[icentral/src/graph_hash_t.cc]

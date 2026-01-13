@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-muc/src/muc.rs ]
 crate::ix!();
 
 pub trait NodeIdToMucId {

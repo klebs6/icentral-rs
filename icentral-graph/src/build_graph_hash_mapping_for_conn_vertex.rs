@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-graph/src/build_graph_hash_mapping_for_conn_vertex.rs ]
 crate::ix!();
 
 impl<GH> BuildGraphHashMappingForConnVertex<GH> for Graph<GH> 
@@ -84,5 +85,4 @@ where GH: InsertNode + InsertEdge + CreateNamedEmpty
         Ok((conn_vert,Arc::new(gh)))
     }
 }
-
 

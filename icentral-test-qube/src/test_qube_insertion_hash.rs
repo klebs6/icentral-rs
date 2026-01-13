@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-test-qube/src/test_qube_insertion_hash.rs ]
 crate::ix!();
 
 pub fn insertion_test_qube_hash_step<GH>(

@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-mindexed-map/src/lib.rs ]
 #[macro_use] mod imports; use imports::*;
 
 x!{maybe_indexed_map}

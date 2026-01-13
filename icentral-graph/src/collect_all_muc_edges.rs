@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-graph/src/collect_all_muc_edges.rs ]
 crate::ix!();
 
 impl<GH> CollectAllMucEdges for Graph<GH> 

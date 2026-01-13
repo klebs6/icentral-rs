@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-subgraph/src/muc_attenuate.rs ]
 crate::ix!();
 
 pub trait MucAttenuate {

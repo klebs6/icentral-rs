@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-test-qube/src/lib.rs ]
 #[macro_use] mod imports; use imports::*;
 
 x!{test_qube_insertion}

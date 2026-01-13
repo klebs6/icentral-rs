@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-graph/src/node_to_muc_debugger.rs ]
 crate::ix!();
 
 pub struct NodeToMinimumUnionCycleDebugger<'g,G> {
@@ -23,4 +24,3 @@ impl<'g,G: GetNodesToMucs> fmt::Debug for NodeToMinimumUnionCycleDebugger<'g,G> 
             .finish()
     }
 }
-

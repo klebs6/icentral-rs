@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-graph/src/find_edge_bcc_with_component.rs ]
 crate::ix!();
 
 impl<GH> FindEdgeBccWithComponent<GH> for Graph<GH> 

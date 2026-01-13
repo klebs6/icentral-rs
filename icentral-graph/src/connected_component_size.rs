@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-graph/src/connected_component_size.rs ]
 crate::ix!();
 
 impl<GH> ConnectedComponentSize for Graph<GH> {

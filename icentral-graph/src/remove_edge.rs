@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-graph/src/remove_edge.rs ]
 crate::ix!();
 
 impl<GH> RemoveEdge for Graph<GH> {

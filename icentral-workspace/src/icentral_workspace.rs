@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-workspace/src/icentral_workspace.rs ]
 crate::ix!();
 
 /**

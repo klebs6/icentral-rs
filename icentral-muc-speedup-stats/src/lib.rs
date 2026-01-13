@@ -1,3 +1,4 @@
+// ---------------- [ File: icentral-muc-speedup-stats/src/lib.rs ]
 #[macro_use] mod imports; use imports::*;
 
 x!{muc_speedup_stats}
